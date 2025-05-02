@@ -227,17 +227,26 @@ margin-bottom: 100px;
     align-items: flex-end;
     justify-content: space-between;
     font-family: nova;
-    padding: 30px;
+    padding: 60px;
     height: 200px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  
+ }
+
+ .icons{
+    margin-top: 100px;
+    display: flex;
+
  }
  .icons img{
     width: 30px;
     height: 30px;
+    padding: 10px;
  }
 
- .icons a :hover{
-      width: 40px;
-    height: 40px;
+ .icons a  :hover{
+    width: 35px;
+    height: 35px; 
 
  }
 
