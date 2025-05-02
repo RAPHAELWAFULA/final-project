@@ -1,0 +1,243 @@
+*{}
+header{
+     /* border: 1px solid#000080 ; */
+    margin-top: 10px;
+     height: 100px;
+    
+}
+
+.head {
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* padding: 20px; */
+    
+   
+
+}
+
+.logo{
+    display: flex;
+     /* border: 1px solid#000080 ; */
+     align-items: flex-start;
+
+
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* border:1px solid black; */
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.social ul{
+     display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+ .social a {
+     display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    color:#000080;
+    font-family:nova;
+
+ }
+  .social li :hover {
+    color:#FFA500;
+    text-decoration:underline;
+
+ }
+
+
+ /* signup btn styling */
+
+ .signup button{
+    font-family: nova;
+    font-size: 18px;
+    color: #FFA500;
+    background-color: transparent;
+    border: 1px solid #FFA500;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+ .signup a :hover{
+    color: #000080;
+   border: 1px solid #000080 ; 
+ }
+
+
+ /* navbar styling */
+.navbar{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+ .navbar ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid #FFA500; */
+    padding: 10px;
+    border-radius: 50px;
+    width: 70%;
+    margin-bottom: 50px;
+    /* background-color: aliceblue; */
+    color: aliceblue;
+ }
+
+.navbar a{
+    text-decoration:none ;
+    font-family: nova;
+    color: white;
+}
+
+ .navbar ul  :hover{
+    color: #FFA500;
+    text-decoration: overline;
+}
+
+.homepage{
+background-image: url(images/homepage.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: 100px;
+
+}
+ .aboutus{
+    /* border:2px solid #000080; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+     background-image: url(images/forward-logo-removebg-preview.png);
+    /* background-size: cover;
+     background-position: center; */
+    background-repeat: repeat;
+     /* background-color: rgba(0, 0, 0, 0.2);  */
+ }
+
+ .text{
+    width: 30%;
+    /* border: 1px solid yellow; */
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-family: nova;
+    background-color: aliceblue;
+    /* background-image: url(images/forward-logo-removebg-preview.png);
+    background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+     /* background-color: rgba(0, 0, 0, 0.2);  */
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+ }
+ .text h1{
+    font-family: nova;
+    font-weight: 900;
+ }
+
+ .text h2{
+    font-family: nova;
+    color: #FFA500;
+      font-weight: 900;
+
+ }
+
+ .text p{
+       font-weight: 900; 
+ }
+
+
+ .pics{
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 30%;
+
+ }
+ .pic1 img,.pic2 img,.pic3 img,.pic4 img{
+    width: 220px;
+    height: 150px;
+    border-radius: 20px;
+   
+ }
+
+ .pic1,.pic2,.pic3,.pic4{
+     /* border: 1px solid yellow; */
+     width: 100%;
+     padding: 4px;
+     /* background-color: white; */
+
+ }
+
+ .pic1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 80px;
+ }
+
+ .pic2{
+  display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 80px;
+ }
+
+ .pic3{
+     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 80px;
+
+ }
+
+ .pic4{
+     display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+     padding-left: 80px;
+
+ }
+
+ footer{
+    background-color: #FFA500;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: nova;
+    padding: 30px;
+    height: 200px;
+ }
+ .icons img{
+    width: 30px;
+    height: 30px;
+ }
+
+ .icons a :hover{
+      width: 40px;
+    height: 40px;
+
+ }
+
